@@ -1,0 +1,45 @@
+*,html{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+}
+.logo{
+    height: 150px;
+    width: 170px;
+    align-items: end;
+}
+
+.main-setting{
+    width: 100;
+    height: 100px;
+    background-color: blueviolet;
+    overflow: scroll;
+}
+header, foot-settings{
+    background-color: rgb(179, 140, 93);
+}
+.home-con{
+    background-color: rgb(179, 140, 93);
+    padding: 3rem;
+}
+.about-con{
+    background-color:rgb(180, 88, 176);
+    text-align: center;
+}
+.about-img{
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+}
+.service-con{
+    background-color:rgb(128, 73, 123);
+    height: 1200px;
+}
+.contact-con{
+    background-color:#554980;
+    height: 1200px;
+    font-size: 50px;
+}

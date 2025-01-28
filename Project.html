@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/project/pro_wp.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./Project_files/my_style.css">
+    <link rel="stylesheet" href="./Project_files/sitepage.css">
+</head>
+<body>
+    <header id="header" class="head-setting">
+        <div class="parent-menu">
+            <div class="menu-child">
+                <img class="logo" src="./Project_files/wp_logo.jpg" alt="logo">
+                <a class="menu-item" href="http://127.0.0.1:5500/project/pro_wp.html">Home</a>
+                <a class="menu-item" href="http://127.0.0.1:5500/project/pro_wp.html">about</a>
+                <a class="menu-item" href="http://127.0.0.1:5500/project/pro_wp.html">Product</a>
+                <a class="menu-item" href="http://127.0.0.1:5500/project/pro_wp.html">Services</a>
+             </div>
+        </div>
+    </header>
+    <main class="main-settings">
+        <div class="main-div about-con"> 
+            <p class="site-div-titles"> About</p>
+            <br>
+            <img class="about-img" src="./Project_files/shop2.jpg">
+            <div id="home" class="main-div home-con">
+                <p>
+                    My business idea is a clothing boutique, Trophy Curves, for plus-size women. Nowadays, appearance plays a vital role, and many women face problems concerning their body image. The clothes that do not fit can cause not only short-term disappointment but also damage self-esteem and influence self-love for an extended period.
+                </p><br>
+                <p>Thus, it is extremely important to support women and demonstrate their beauty with the help of the right high-quality clothes at affordable prices. My boutique is about people and people who want to stop worrying about their everyday selection of the look of the day. The clothes give the opportunity not to apply much thought to the issue of choice between comfort and beauty because it combines both features. </p>
+            </div>
+        </div>
+        <div class="main-div service-con">
+            <p class="site-div-titles">service</p>
+        </div>
+        <div class="main-div contact-con">
+            <p class="site-div-titles">contact</p>
+        </div>
+    </main>
+    <footer class="foot-settings">
+        <div class="foot-set">footer is coming</div>
+    </footer>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
